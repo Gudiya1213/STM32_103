@@ -11,6 +11,7 @@ int main(void)
     /* USER CODE END WHILE */
 
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5,GPIO_PIN_SET);       // select porta  pin no 5 set as output
+          HAL_Delay(1000);
 	 
     /* USER CODE BEGIN 3 */
   }
